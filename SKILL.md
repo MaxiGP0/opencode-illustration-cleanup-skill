@@ -73,6 +73,8 @@ $skill = "$HOME\.agents\skills\illustration-cleanup"
 $skill = "$HOME\.config\opencode\skills\illustration-cleanup"
 ```
 
+En macOS/Linux, usá `scripts/run.sh` y `scripts/validate.sh` en lugar de los `.ps1`.
+
 ### Imagen individual
 
 ```powershell
