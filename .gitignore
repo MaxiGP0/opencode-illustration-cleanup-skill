@@ -1,0 +1,23 @@
+# Local environment and downloaded models
+.venv/
+models/
+tools/
+*.onnx
+*.pt
+*.pth
+
+# Test and pipeline outputs
+test-assets/
+test-output*/
+docs-temp/
+outputs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db

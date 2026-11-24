@@ -1,0 +1,70 @@
+opencode-illustration-cleanup-skill
+Copyright (c) 2026 Máximo Gomez Pessoa (MaxiGP0)
+
+This repository contains the original illustration-cleanup skill and its
+pipeline. It is not an installer for an upstream skill.
+
+At runtime, the pipeline installs third-party packages from PyPI and downloads
+model weights from their upstream release URLs. Neither the packages nor the
+model weights are redistributed in this repository.
+
+Third-party software used at runtime
+------------------------------------
+
+- rembg — MIT License
+  https://github.com/danielgatis/rembg
+
+- BiRefNet — MIT License
+  https://github.com/ZhengPeng7/BiRefNet
+
+- RapidOCR — Apache License 2.0
+  https://github.com/RapidAI/RapidOCR
+
+- LaMa — Apache License 2.0
+  https://github.com/advimman/lama
+
+- simple-lama-inpainting — Apache License 2.0
+  https://github.com/enesmsahin/simple-lama-inpainting
+
+- PyMatting — MIT License
+  https://github.com/pymatting/pymatting
+
+- OpenCV — Apache License 2.0
+  https://github.com/opencv/opencv
+
+- Pillow — HPND License
+  https://github.com/python-pillow/Pillow
+
+- PyTorch — BSD 3-Clause License
+  https://github.com/pytorch/pytorch
+
+- ONNX Runtime — MIT License
+  https://github.com/microsoft/onnxruntime
+
+- NumPy — BSD 3-Clause License
+  https://github.com/numpy/numpy
+
+- uv — Apache License 2.0
+  https://github.com/astral-sh/uv
+
+- Python — PSF License 2.0
+  https://www.python.org/
+
+Model weights
+-------------
+
+- BiRefNet General weights are downloaded and distributed by the rembg
+  project. See the rembg release URL and the BiRefNet license above.
+- LaMa weights are downloaded and distributed by the simple-lama-inpainting
+  project. See the simple-lama-inpainting license above.
+- RapidOCR models are distributed by the RapidOCR project. See the RapidOCR
+  license above.
+
+Trademarks and affiliation
+--------------------------
+
+OpenCode is a separate project by its authors. This skill is unofficial and is
+not affiliated with OpenCode, rembg, BiRefNet, RapidOCR, LaMa, or any other
+upstream project. Names and marks belong to their respective owners.
+
+The skill is provided as-is, without warranty of any kind.
