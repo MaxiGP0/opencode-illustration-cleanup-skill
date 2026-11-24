@@ -30,7 +30,7 @@ No es para fotos con pelo/pelusa extrema ni para video. Para fotos, BiRefNet pue
 
 - Windows 10/11 con PowerShell 5+.
 - Internet en la primera ejecución (descarga Python, dependencias y modelos).
-- ~2 GB libres. Sin permisos de administrador: todo queda dentro de la skill.
+- ~3 GB libres. Sin permisos de administrador: todo queda dentro de la skill.
 - No requiere GPU. CPU es el default.
 
 La primera ejecución descarga:

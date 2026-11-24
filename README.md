@@ -31,7 +31,7 @@ It is built for the case where a rectangular text box crosses the subject: maski
 - **Windows:** Windows 10/11 with PowerShell 5.1 or newer.
 - **macOS / Linux:** `bash`, `curl`, and `tar`.
 - Internet on the first run.
-- About 2.2 GB free for Python, dependencies, and the default models.
+- About 3 GB free for Python, dependencies, and the default models.
 - CPU is enough. No GPU, no administrator rights.
 
 The first run downloads:

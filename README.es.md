@@ -31,7 +31,7 @@ Está pensada para el caso en el que una caja rectangular de texto cruza el suje
 - **Windows:** Windows 10/11 con PowerShell 5.1 o superior.
 - **macOS / Linux:** `bash`, `curl` y `tar`.
 - Internet en la primera ejecución.
-- Unos 2,2 GB libres para Python, dependencias y los modelos por defecto.
+- Unos 3 GB libres para Python, dependencias y los modelos por defecto.
 - Alcanza con CPU. No hace falta GPU ni permisos de administrador.
 
 La primera ejecución descarga:
